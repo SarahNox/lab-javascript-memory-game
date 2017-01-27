@@ -1,0 +1,40 @@
+body {
+  background-image: url("https://www.fjackets.com/blog/wp-content/uploads/2015/11/Superheroes.jpg");
+}
+
+h1 {
+  text-align: center;
+}
+
+#memory_board {
+  width: 780px;
+  height: 520px;
+  background-color: #DDDDDD;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+#box {
+  margin: 0px auto;
+  width: 800px;
+}
+
+#card {
+  z-index: 1;
+  margin: 10px 0 0;
+}
+
+#card div{
+  float: left;
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 0 1px 5px rgba(0,0,0,.5);
+  background: #456783;
+}
+
+#card div img {
+  display: none;
+  border-radius: 10px;
+}
